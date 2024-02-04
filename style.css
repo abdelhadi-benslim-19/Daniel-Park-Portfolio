@@ -1,0 +1,798 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.background--section {
+  background-image: url(./images/cool-background\ \(1\).png);
+  background-size: cover;
+}
+
+.nav--bar {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav--logo {
+  padding: 15px;
+  color: white;
+}
+
+.nav--links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.nav--links a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+
+.nav--btn {
+  padding: 15px;
+}
+
+.cv--btn {
+  border: none;
+  background-color: darkorange;
+  color: white;
+  font-weight: bold;
+  padding: 15px 20px;
+  border-radius: 50px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-size: 15px;
+}
+
+
+.home--section {
+  padding: 10px;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.home--intro {
+  padding: 10px;
+}
+
+.home--intro--content {
+  padding: 10px;
+}
+
+.home--intro--content h1 {
+  font-size: 50px;
+  font-weight: bold;
+  word-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.home--intro--content p {
+  font-size: 16px;
+}
+
+.home--intro--btns {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.get-started--btn {
+  border: none;
+  background-color: darkorange;
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 50px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.watch-intro--btn {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.fa-circle-play {
+  font-size: 30px;
+  color: darkorange;
+  padding-right: 6px;
+}
+.home--picture {
+  padding: 10px 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home--picture img {
+  width: 50%;
+  height: 90%;
+  border-radius: 20px;
+  background-color: lightblue;
+}
+
+.services--section {
+  padding: 10px;
+  text-align: center;
+  background-image: url(./images/scattered-forcefields.png);
+  background-size: cover;
+}
+
+.services--content {
+  padding: 10px;
+}
+
+.services--content--text h1 {
+  padding: 5px 0;
+  color: blueviolet;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.services--content--text h2 {
+  font-size: 30px;
+  padding-bottom: 10px;
+  word-spacing: 5px;
+}
+
+.services--content--text p {
+  font-size: 15px;
+  word-spacing: 2px;
+  padding-bottom: 10px;
+}
+
+.cards--container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.card--1 {
+  background-color: lightcyan;
+}
+
+.card--2 {
+  background-color: blueviolet;
+}
+
+.card--3 {
+  background-color: lightcyan;
+}
+
+.card--text {
+  padding: 20px;
+}
+
+.card--text h3,
+p {
+  padding: 5px;
+}
+
+.fa-laptop-code {
+  font-size: 50px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.fa-bezier-curve,
+.fa-cubes {
+  font-size: 50px;
+  margin-bottom: 5px;
+  color: blue;
+}
+
+.about--section {
+  background-image: url(./images/cool-background.svg);
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.image--left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image--left img {
+  width: 50%;
+  height: 90%;
+  border-radius: 10px;
+  background-color: darkorange;
+}
+
+.about--content {
+  padding: 10px;
+}
+
+.about--content h1 {
+  color: blueviolet;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+
+.about--content h2 {
+  font-size: 35px;
+  word-spacing: 2px;
+  padding-bottom: 10px;
+}
+
+.about--content p {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.fa-circle-arrow-right {
+  color: white;
+}
+
+.card--container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.card--text-container p {
+  padding-left: 24px;
+}
+
+.card--container--1 {
+  background-color: lightcoral;
+  margin-bottom: 10px;
+}
+
+.card--container--2 {
+  background-color: lightskyblue;
+  margin-bottom: 20px;
+}
+
+.about--cv--btn {
+  border: none;
+  background-color: darkorange;
+  color: white;
+  font-weight: bold;
+  padding: 15px 20px;
+  border-radius: 50px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.fa-arrow-right {
+  padding-left: 5px;
+}
+
+.process--section {
+  padding: 10px;
+  background-image: url(./images/scattered-forcefields.png);
+  background-size: cover;
+}
+
+.process--content {
+  text-align: center;
+}
+
+.process--content h1 {
+  color: blueviolet;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
+.process--content h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.process--cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.business--plan--card {
+  padding: 20px;
+}
+
+.business--plan--card i {
+  font-size: 40px;
+  background-color: blue;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.business--plan--card i,
+h3,
+p {
+  padding: 10px;
+}
+
+.design--strategy--card {
+  padding: 20px;
+}
+
+.design--strategy--card i {
+  font-size: 40px;
+  background-color: blue;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.design--strategy--card i,
+h3,
+p {
+  padding: 10px;
+}
+
+.grow--business--card {
+  padding: 20px;
+}
+
+.grow--business--card i {
+  font-size: 40px;
+  background-color: blue;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.grow--business--card i,
+h3,
+p {
+  padding: 10px;
+}
+
+.testimonals--section {
+  padding: 10px;
+  background-image: url(./images/layered-waves-haikei.svg);
+  background-size: cover;
+}
+
+.testimonals--content {
+  padding: 10px;
+  text-align: center;
+}
+
+.testimonals--content h1 {
+  color: blueviolet;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.testimonals--content h2 {
+  color: white;
+}
+
+.testimonals--cards {
+  display: flex;
+  padding: 20px;
+}
+
+.testimonal--card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+  border-radius: 20px;
+  padding: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: #fff;
+}
+
+.testimonal--card i {
+  color: darkgoldenrod;
+  padding-left: 10px;
+}
+
+.card--profile {
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+.card--profile img {
+  width: 25%;
+  border-radius: 50%;
+  float: left;
+  padding: 10px;
+}
+
+.card--profile h2 {
+  font-size: 15px;
+  margin-top: 10px;
+  padding-bottom: 0x;
+  margin-bottom: 0;
+}
+
+.card--profile p {
+  color: darkgray;
+}
+
+.portfolio--section {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/scattered-forcefields.png);
+  background-size: cover;
+}
+
+.portfolio--content {
+  padding: 10px;
+}
+
+.portfolio--content--text {
+  text-align: center;
+}
+
+.portfolio--content--text h1 {
+  color: blueviolet;
+  font-size: 15px;
+  margin: 5px;
+  text-transform: uppercase;
+}
+
+.portfolio--content--text h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.portfolio--filter {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.portfolio--filter button {
+  border: 1px solid blue;
+  padding: 10px;
+  margin: 7px;
+  border-radius: 5px;
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+}
+
+.all--btn.active {
+  background-color: blue;
+  color: white;
+}
+
+.portfolio--filter button:hover {
+  background-color: blue;
+  color: white;
+}
+
+.portfolio--gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.portfolio--card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.portfolio--card img {
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+}
+
+.portfolio--card--content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.portfolio--card--content--text h4 {
+  font-size: 13px;
+  padding-left: 9px;
+}
+
+.portfolio--card--content--text p {
+  font-size: 10px;
+  color: darkgray;
+}
+
+.view--btn {
+  border: none;
+  border-radius: 50%;
+  background-color: blue;
+  padding: 10px;
+  color: white;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.view--btn:hover {
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+
+.contact--section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-image: url(./images/stacked-waves-haikei.svg);
+  background-size: cover;
+  color: white;
+}
+
+.contact--section--left {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.contact--section--left h2 {
+  margin-left: 9px;
+  font-size: 30px;
+  word-spacing: 2px;
+  padding-bottom: 10px;
+}
+
+.contact--section--left p {
+  font-size: 15px;
+  word-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.contact--section--right {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact--section--right img {
+  width: 50%;
+  height: 80%;
+  border-radius: 10px;
+  background-color: blue;
+}
+
+.contact--btn {
+  border: none;
+  background-color: darkorange;
+  color: white;
+  font-weight: bold;
+  padding: 15px 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  font-size: 15px;
+  margin-left: 9px;
+}
+
+.footer--section {
+  padding: 30px;
+  background-image: url(./images/scattered-forcefields.png);
+  background-size: cover;
+}
+
+.footer--section--top--container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+}
+
+.footer--section--left {
+  padding: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer--section--left h1 {
+  color: blueviolet;
+  font-size: 15px;
+  margin-bottom: 5px;
+  margin-left: 4px;
+  text-transform: uppercase;
+}
+
+.footer--section--left h2 {
+  font-size: 30px;
+  word-spacing: 2px;
+  margin-left: 2px;
+}
+
+.footer--section--right {
+  padding: 10px;
+}
+
+.footer--section--right p {
+  font-size: 13px;
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.footer--section--right input[type="email"] {
+  border: none;
+  background-color: #fff;
+  padding: 15px 20px;
+  margin-right: 0;
+  outline: none;
+  width: 70%;
+}
+
+.footer--section--right button {
+  border: none;
+  padding: 15px 20px;
+  background-color: blue;
+  color: white;
+  font-weight: 500;
+  margin-left: 0;
+  width: 30%;
+  float: right;
+  cursor: pointer;
+}
+
+.footer--section--right button:hover {
+    opacity: 0.5;
+}
+
+.footer--section--email {
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+
+.footer--section--email form {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer--section--navbar {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.footer--section--navbar nav {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer--section--navbar nav h1 {
+  font-size: 20px;
+  color: #1c1c1c;
+}
+
+.footer--section--navbar nav a {
+  text-decoration: none;
+  color: #1c1c1c;
+  font-weight: 500;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.footer--section--copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.footer--section--copyright footer p {
+  font-size: 16px;
+  color: gray;
+}
+
+hr {
+  width: 96%;
+  margin-left: 10px;
+}
+
+/* Contact Styling */
+.contact-popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.contact-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  background-color: whitesmoke;
+  color: black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  z-index: 2;
+  text-align: center;
+  width: 80%;
+}
+
+.contact-content h2 {
+  font-size: 35px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+}
+
+input[type = text], input[type = email], textarea {
+  padding: 20px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: darkorange;
+  color: black;
+}
+
+.submit-btn {
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: darkorange;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
