@@ -25,6 +25,10 @@
   color: white;
 }
 
+.dropbtn {
+  display: none;
+}
+
 .nav--links {
   display: flex;
   justify-content: center;
@@ -796,3 +800,189 @@ input[type = text], input[type = email], textarea {
   cursor: pointer;
 }
 
+@media only screen and (max-width: 767px) {
+  body {
+    max-width: 767px;
+  }
+
+  /* navbar styling */
+  .nav--bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav--logo h1 {
+    font-size: 25px;
+  }
+
+  .dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 12px;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    display: block;
+  }
+
+  .dropbtn:hover {
+    color: darkorange;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+    /* Center the dropdown content */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .dropdown-content a:hover {
+    background-color: darkorange;
+    color: white;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /* Home Page Styling */
+
+  .home--section {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home--intro, .home--intro--btns {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+  }
+
+  .home--picture img {
+    width: 200px;
+  }
+
+  .cards--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+
+  .about--section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .image--left img {
+    display: none;
+  }
+
+  .process--cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fa-angles-right {
+    transform: rotate(90deg);
+    font-size: 20px;
+  } 
+
+  .testimonals--cards {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .testimonal--card {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .card--stars {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .card--content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card--profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 10px;
+  }
+
+  .card--profile img {
+    width: 80px;
+  }
+ 
+  .portfolio--gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .portfolio--card--content {
+    padding: 10px;
+  }
+
+  .portfolio--card--content--text h4 {
+    font-size: 20px;
+  }
+
+  .portfolio--card--content--text p {
+    font-size: 16px;
+  }
+
+  .view--btn {
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .contact--section--left {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer--section--top--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
