@@ -54,9 +54,22 @@
             <div class="home--intro--btns">
               <button class="get-started--btn">Get Started</button>
 
-              <button class="watch-intro--btn">
+              <button id="showIntroBtn" onclick="openVideoPopup()" class="watch-intro--btn">
                 <i class="fa-regular fa-circle-play"></i> Watch Intro
               </button>
+
+              <div class="contact-popup" id="videoPopup">
+                <div class="contact-content">
+                    <span class="close-btn" onclick="closeVideoPopup()">&times;</span>
+                    <!-- Add your video element here -->
+                    <h2>Intro Video</h2>
+                    <video id="introVideo" width="640" height="360" controls>
+                        <source src="./videos/dance.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+
             </div>
           </div>
         </div>

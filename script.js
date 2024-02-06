@@ -95,3 +95,15 @@ function openContactPopup() {
       });
     });
   });
+
+  // intro video functionality
+  function openVideoPopup() {
+    document.getElementById('videoPopup').style.display = 'block';
+}
+
+function closeVideoPopup() {
+    var introVideo = document.getElementById('introVideo');
+    introVideo.pause();
+    introVideo.currentTime = 0;
+    document.getElementById('videoPopup').style.display = 'none';
+}

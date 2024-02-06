@@ -75,6 +75,11 @@
   padding: 10px;
 }
 
+video {
+  width: 100%;
+  height: auto;
+}
+
 .home--intro--content h1 {
   font-size: 50px;
   font-weight: bold;
