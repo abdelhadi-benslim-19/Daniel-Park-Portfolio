@@ -914,16 +914,20 @@ input[type = text], input[type = email], textarea {
     flex-direction: column;
   }
 
-  .testimonal--card {
-    margin-bottom: 20px;
+  .profile-plus-comment {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-evenly;
   }
 
+  .testimonal--card {
+    margin-bottom: 20px;
+  }
+  
   .card--stars {
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
   }
 
@@ -945,7 +949,13 @@ input[type = text], input[type = email], textarea {
   .card--profile img {
     width: 80px;
   }
- 
+
+  .portfolio--filter {
+    display: grid;
+    grid-template-columns: 2fr;
+    
+  }
+
   .portfolio--gallery {
     display: flex;
     flex-direction: column;
@@ -984,5 +994,19 @@ input[type = text], input[type = email], textarea {
     flex-direction: column;
     align-items: center;
     text-align: center;
+  }
+
+  .responsive-navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer--section--navbar--logo {
+    padding-bottom: 20px;
+  }
+
+  .footer--section--navbar--links a{
+    padding: 0 15px;
   }
 }
