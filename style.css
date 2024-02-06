@@ -980,13 +980,13 @@ input[type = text], input[type = email], textarea {
     font-size: 20px;
   }
 
-  .subscribtion--form {
+  .footer--section--email form {
     display: flex;
     flex-direction: column;
   }
 
-  .subscribtion--form button {
-    width: 270%;
+  .footer--section--email button {
+    width: 100%;
   }
 
   .contact--section--left {
@@ -1019,5 +1019,5 @@ input[type = text], input[type = email], textarea {
     padding: 0 10px;
   }
 
-  
+
 }
