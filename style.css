@@ -1007,6 +1007,6 @@ input[type = text], input[type = email], textarea {
   }
 
   .footer--section--navbar--links a{
-    padding: 0 15px;
+    padding: 0 10px;
   }
 }
